@@ -1,78 +1,91 @@
-body {
-    background-image: url("Kurs_Narciarski_WyjątkowyPrezent.jpg");
+html, body {
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
+body.home {
+  background-image: url("Kurs_Narciarski_WyjątkowyPrezent.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100hv;
+  
+}
+
+body.about {
+  background-image: url('skier-doing-acrobatic-cool-poses-on-high-snowy-hills-near-the-sun-wallpaper-2732x2048_172 (1).jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .background-container {
-    height: 100vh; 
-    background-image: url('Kurs_Narciarski_WyjątkowyPrezent.jpg'); 
-    background-size: 100%;
-    background-position: center; 
-    background-repeat: no-repeat; 
-    
+  min-height: 50vh;
 }
 
-html, body {
-    margin: 0;
-    padding: 30;
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-nav{
+nav {
   text-align: center;
   font-size: 25px;
-
+  font-family: "League Gothic", sans-serif;
+  font-weight: 500;
 }
 
 header {
-    background-color: rgb(255, 255, 255);;opacity: 0.6;
-    height: auto;
-    padding-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.6;
+  height: auto;
+  padding-bottom: 10px;
+}
 
-  }
+main {
+  background-color: rgba(0, 89, 255, 0.60);
+}
 
-  main{
-    background-color:rgba(0, 89, 255, 0.60)
-  }
-  
-  nav{
-    font-family: "League Gothic", sans-serif;
-    font-weight: 500;
-    font-size: 35
+a {
+  color: black;
+}
 
-  
-  }
-
-  a{
-    color: black;
-  }
-
-  main h2 {
-    color: #ffffff;
-    font-family: "Dela Gothic One", sans-serif;
+main h2 {
+  color: #ffffff;
+  font-family: "Dela Gothic One", sans-serif;
   font-weight: 200;
-  font-style: normal;
-  font-style: normal;
   text-align: center;
   font-size: 35px;
-  
 }
 
 main h1 {
   color: #ffffff;
   font-family: "Manrope", sans-serif;
-font-style: normal;
-text-align: center;
-font-weight: 100;
-font-size: 20px;
-
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
 }
 
-main img{
+main img {
   width: 45%;
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
+.bottom-section {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.bottom-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer{
+  background-color: aqua;
+  margin-top: auto;
+  text-align: center; 
+  margin-top: auto;
+}
